@@ -1,0 +1,43 @@
+Prgm lab 2.2 
+Question No:1
+def addprefix(s):
+    if len(s)<3:
+        return s
+    else:
+        if s[-3:]!='ing':
+            return s+'ing'
+        else:
+            return s+'ly'
+s=input("Enter a string:")
+s1=addprefix(s)
+print("After adding suitable prefix:",s1)
+Question No:2
+S=input(“enter the list of words(in comma separated from)”)
+list1=s.split(“ ,“)
+Word=list1[0]
+For I in list 1:
+	If len(word)<len(i):
+		Word=i
+Print(“Length of the longest word:”,len(word))
+Question No:3
+for i in range(5):
+	for j in range(i):
+		print(“*”,end=””)
+	print()
+for i in range(5,0,-1):
+	for j in range(i,0,-1): 
+		print(“*”,end=””)
+	print()
+Question No:4
+n=int(input(“enter the number”))
+print(“factors of”,n:)
+	for I in range(1,n+1):
+		if n%i==0:
+			print(i)
+Question No:5
+Square=lambda a:a*a
+Rectangle=lambda l,b:l*b
+Triangle=lambda b,h:0.5*b*h
+Print(“area of square:”,square(4))
+Print(“area of rectangle:”,rectangle(4,5))
+Print(“area of triangle:”,triangle(6,9))
